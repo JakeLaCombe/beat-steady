@@ -29,3 +29,7 @@ $(document).ready(function() {
   var ctx = document.getElementById("statistics-graph").getContext("2d");
   var myNewChart = new Chart(ctx).Line(data, {});
 })
+
+$(document).on('ajax:success', '#standard-modal form', function(e, data, status) {
+  $('.modal').modal('hide');
+});

@@ -1,9 +1,6 @@
 // Place all the styles related to the statistics controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.navbar + .secondary-nav {
-  margin-bottom: 0px;
-}
 
 .secondary-navigation {
   text-align: center;
@@ -28,11 +25,16 @@
   color: #15ADB8;
 }
 
-.goals .fa {
-  margin-right: 5px;
+.goals {
+  color: #6A811A;
+
+  .fa {
+    margin-right: 5px;
+  }
 }
 
 .awards { 
+  color: #6A811A;
   > * {
     margin-top: 20px;
   }

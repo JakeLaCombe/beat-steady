@@ -50,7 +50,7 @@
     <%= image_tag('bronze-achievement.png') %>
     <figcaption>Improved Endurance</figcaption>
   </figure>
-  <a class="form-control clearfix btn">More Achievements</a>
+  <%= link_to 'More Achievements', statistics_achievements_path, class: 'form-control clearfix btn btn-default', data: {toggle: 'modal', target:'#standard-modal'} %>
 </div>
 <div class="goals col-md-4">
   <h2>Primary Goals</h2>

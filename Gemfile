@@ -37,6 +37,8 @@ gem 'devise'
 # Font Awesome
 gem 'font-awesome-rails', '~> 4.2.0.0'
 
+gem 'pry'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
