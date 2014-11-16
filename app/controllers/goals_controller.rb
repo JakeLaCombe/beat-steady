@@ -9,6 +9,6 @@ class GoalsController < ApplicationController
 
   def create
     current_user.update_attributes({goals: Goal.where(id: params[:goals])})
-    render json: {}
+    @goals = current_user.goals
   end
 end

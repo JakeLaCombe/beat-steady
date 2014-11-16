@@ -32,4 +32,5 @@ $(document).ready(function() {
 
 $(document).on('ajax:success', '#standard-modal form', function(e, data, status) {
   $('.modal').modal('hide');
+  $('.goals').html(data);
 });

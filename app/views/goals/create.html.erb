@@ -1,0 +1,5 @@
+<h2>Primary Goals</h2>
+<p><%= link_to 'Set Goals', goals_path, data: {toggle: 'modal', target:'#standard-modal'} %></p>
+<% @goals.each do |goal| %>
+  <p><span class="<%= goal.display_class %>"></span><%= goal.name %></p>
+<% end %>
