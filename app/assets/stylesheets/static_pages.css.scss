@@ -6,8 +6,12 @@
   background-image: asset_url('main-page-image.png');  
 }
 
-.site-description p {
-  color: #fff;
-  font-size: x-large;
-  margin-bottom: 20px;
+.site-description {
+  margin-top: 10px;
+
+  p {
+    color: #fff;
+    font-size: x-large;
+    margin-bottom: 20px;
+  }
 }

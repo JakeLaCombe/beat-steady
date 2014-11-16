@@ -1,0 +1,17 @@
+// Place all the styles related to the statistics controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.navbar + .secondary-nav {
+  margin-bottom: 0px;
+}
+
+.secondary-navigation {
+  text-align: center;
+  padding: 10px;
+  background-color: #6A811A;
+  color: #fff;
+
+  p {
+    margin-bottom: 0;
+  }
+}
