@@ -1,0 +1,18 @@
+<div class="modal-header">
+  Goals
+  <button class="close" type="button" data-dismiss="modal">
+    <span aria-hidden='true'> &times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <%= form_tag goals_path, method: :post, class: 'form-stacked' do %>
+    <% @goals.each do |goal| %>
+      <label>
+        <%= check_box_tag 'goals[]', goal.id %>
+        <%= goal.name %>
+      </label>
+    <% end %>
+  <% end %>
+</div>
+<div class="modal-footer">
+</div>

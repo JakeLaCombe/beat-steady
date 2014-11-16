@@ -42,3 +42,11 @@
   text-align: center;
   font-size: large;
 }
+
+.form-stacked label {
+  display: block;
+
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+}

@@ -14,3 +14,8 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require_tree .
+
+$(document).on('hidden.bs.modal', '[data-remote-modal]', function(e) {
+  $(e.target).removeData('bs.modal');
+  $(e.target).find('.modal-content').html('');
+});

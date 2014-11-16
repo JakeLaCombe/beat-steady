@@ -31,30 +31,37 @@
     <figcaption>Improved Endurance</figcaption>
   </figure>
   <figure class="col-md-4">
-    <%= image_tag('gold-achievement.png') %>
+    <%= image_tag('silver-achievement.png') %>
     <figcaption>Improved Endurance</figcaption>
   </figure>
   <figure class="col-md-4">
-    <%= image_tag('gold-achievement.png') %>
+    <%= image_tag('silver-achievement.png') %>
     <figcaption>Improved Endurance</figcaption>
   </figure>
   <figure class="col-md-4">
-    <%= image_tag('gold-achievement.png') %>
+    <%= image_tag('silver-achievement.png') %>
     <figcaption>Improved Endurance</figcaption>
   </figure>
   <figure class="col-md-4">
-    <%= image_tag('gold-achievement.png') %>
+    <%= image_tag('bronze-achievement.png') %>
     <figcaption>Improved Endurance</figcaption>
   </figure>
   <figure class="col-md-4">
-    <%= image_tag('gold-achievement.png') %>
+    <%= image_tag('bronze-achievement.png') %>
     <figcaption>Improved Endurance</figcaption>
   </figure>
-  <a class="form-control clearfix btn btn-primary">More Achievements</a>
+  <a class="form-control clearfix btn">More Achievements</a>
 </div>
 <div class="goals col-md-4">
   <h2>Primary Goals</h2>
+  <p><%= link_to 'Set Goals', goals_path, data: {toggle: 'modal', target:'#standard-modal'} %></p>
   <p><span class="fa fa-arrow-circle-o-up goal-increase"></span>Increase my Endurance by the end of the year</p>
   <p><span class="fa fa-check goal-on-track"></span>Increase my Endurance by the end of the year</p>
   <p><span class="fa fa-arrow-circle-o-down goal-decrease"></span>Ensure I keep a consistent heart beat during my runs</p>
+</div>
+<div id="standard-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Registration" aria-hidden="true" data-remote-modal="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    </div>
+  </div>
 </div>
