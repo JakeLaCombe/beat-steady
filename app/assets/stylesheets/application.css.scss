@@ -14,5 +14,12 @@
  *= require_self
  */
 
+@import "bootstrap_overrides";
+@import "typography";
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar-brand {
+  padding: 5px;
+}
