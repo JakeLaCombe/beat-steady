@@ -12,6 +12,10 @@
           <li><%= link_to 'Register', new_user_registration_path %></li>
         <% else %>
           <li><%= link_to current_user.first_name + ' ' + current_user.last_name, statistics_index_path %></a></li>
+          <li><a target="_blank" href="http://71b49e79.ngrok.com/call/8162108253/<%=current_user.first_name%>+<%=current_user.last_name%>+would+like+to+meet+with+you
+">Call Personal Trainer</a></li>
+<li><a target="_blank" href="http://71b49e79.ngrok.com/text/8162108253/<%=current_user.first_name%>+<%=current_user.last_name%>+would+like+to+meet+with+you
+">Text Personal Trainer</a></li>
           <li><%= link_to('Logout', destroy_user_session_path, :method => :delete) %></li>
         <% end %>
       </ul>
